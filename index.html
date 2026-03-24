@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Élevage Canin Premium - Chiots de race LOF</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="https://via.placeholder.com/40x40?text=🐕" alt="Logo" class="logo-img">
+                <h1>Élevage Canin <span class="badge">LOF</span></h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Accueil</a></li>
+                <li><a href="catalog.html">Nos chiots</a></li>
+                <li><a href="admin/dashboard.html">Espace pro</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <span class="hero-tag">Éleveur depuis 2010</span>
+                <h2>Des chiots de race <span class="highlight">élevés avec passion</span></h2>
+                <p>LOF, vaccinés, vermifugés, identifiés et socialisés. Nos chiots grandissent en famille et sont prêts à rejoindre leur nouveau foyer avec tout l'amour du monde.</p>
+                <div class="hero-buttons">
+                    <a href="catalog.html" class="btn-primary"><i class="fas fa-paw"></i> Voir nos chiots</a>
+                    <a href="#contact" class="btn-outline"><i class="fas fa-phone-alt"></i> Nous contacter</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">15+</span>
+                        <span class="stat-label">Races disponibles</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">200+</span>
+                        <span class="stat-label">Familles heureuses</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">LOF</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg" alt="Chiot heureux">
+                <div class="hero-badge">
+                    <i class="fas fa-shield-alt"></i> Éleveur déclaré
+                </div>
+            </div>
+        </section>
+
+        <!-- Races populaires -->
+        <section class="popular-breeds">
+            <div class="section-header">
+                <h2>Nos races les plus demandées</h2>
+                <p>Des chiots de race pure, sélectionnés avec soin pour leur santé et leur caractère</p>
+            </div>
+            <div class="breeds-slider" id="popular-breeds">
+                <!-- Chargé dynamiquement -->
+            </div>
+        </section>
+
+        <!-- Avantages -->
+        <section class="features">
+            <div class="section-header">
+                <h2>Pourquoi choisir notre élevage ?</h2>
+                <p>La qualité et le bien-être de nos chiots sont notre priorité</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-file-alt"></i></div>
+                    <h3>LOF & Papiers</h3>
+                    <p>Tous nos chiots sont inscrits au LOF avec pedigree</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-syringe"></i></div>
+                    <h3>Vaccins à jour</h3>
+                    <p>1er vaccin, rappel et vermifugation inclus</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-id-card"></i></div>
+                    <h3>Identification I-CAD</h3>
+                    <p>Puce électronique et inscription au fichier national</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-hand-holding-heart"></i></div>
+                    <h3>Socialisation</h3>
+                    <p>Nos chiots grandissent avec les enfants et les adultes</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-truck"></i></div>
+                    <h3>Livraison possible</h3>
+                    <p>Dans toute la France avec transporteur agréé</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-headset"></i></div>
+                    <h3>Suivi personnalisé</h3>
+                    <p>Conseils et accompagnement après l'adoption</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Méthodes de paiement -->
+        <section class="payment-methods">
+            <div class="section-header">
+                <h2>Paiements acceptés</h2>
+                <p>Plusieurs options sécurisées pour votre confort</p>
+            </div>
+            <div class="payment-grid">
+                <div class="payment-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Orange Money</h3>
+                    <p>Paiement mobile instantané</p>
+                </div>
+                <div class="payment-card">
+                    <i class="fas fa-phone-alt"></i>
+                    <h3>Mobile Money</h3>
+                    <p>MTN, Moov, Free</p>
+                </div>
+                <div class="payment-card">
+                    <i class="fab fa-bitcoin"></i>
+                    <h3>Cryptomonnaies</h3>
+                    <p>Bitcoin, Ethereum, USDT</p>
+                </div>
+                <div class="payment-card">
+                    <i class="fas fa-university"></i>
+                    <h3>Virement bancaire</h3>
+                    <p>Sur demande</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Chiots disponibles -->
+        <section class="available-puppies">
+            <div class="section-header">
+                <h2>Nos chiots disponibles</h2>
+                <p>Prêts à rejoindre leur nouvelle famille</p>
+            </div>
+            <div class="puppies-grid" id="home-puppies">
+                <!-- Chargé dynamiquement -->
+            </div>
+            <div class="text-center">
+                <a href="catalog.html" class="btn-secondary">Voir tous nos chiots <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter" id="contact">
+            <div class="newsletter-content">
+                <h2>Recevez nos actualités</h2>
+                <p>Soyez informé des nouvelles portées et des disponibilités</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Votre email" required>
+                    <button type="submit" class="btn-primary">S'inscrire</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>🐕 Élevage Canin</h3>
+                <p>Éleveur déclaré - N° SIRET : 123 456 789 00010</p>
+                <p>📍 France - Livraison possible partout</p>
+                <p>📧 contact@elevage-canin.fr</p>
+                <p>📞 +33 6 12 34 56 78</p>
+            </div>
+            <div class="footer-section">
+                <h3>Liens utiles</h3>
+                <ul>
+                    <li><a href="#">Conditions générales de vente</a></li>
+                    <li><a href="#">Politique de confidentialité</a></li>
+                    <li><a href="#">Mentions légales</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Suivez-nous</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Élevage Canin - Tous droits réservés</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
